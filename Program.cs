@@ -67,7 +67,7 @@ namespace clase7
                 if (this.Saldo >= monto)
                 {
                     this.Saldo -= monto;
-                    return (this.Saldo -= monto);
+                    return this.Saldo;
                 }
                 else
                 {
